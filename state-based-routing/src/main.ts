@@ -1,7 +1,7 @@
 import { createOvermind } from 'overmind';
 import { withOvermind } from 'overmind-vue/vue3';
 import { createApp } from 'vue';
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router' // vue-router 4.x
 
 import App from './App.vue';
 import { config } from './overmind';
@@ -40,7 +40,4 @@ createApp(
 	withOvermind(overmind, App)
 )
 .use(router)
-.component('Home', Home)
-.component('Page', Page)
-.component('NestedPage', NestedPage)
 .mount("#app")

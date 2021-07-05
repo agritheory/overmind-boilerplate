@@ -1,8 +1,8 @@
-# Vue 3 + Typescript + Vite + Overmind
+# Vue 3 + Typescript + Vite + Overmind + Vue Router
 
 This template should help get you started developing with [Vue 3](https://v3.vuejs.org/) and [Typescript](https://www.typescriptlang.org/) in [Vite](https://vitejs.dev/) and [Overmind](https://overmindjs.org/) as the UI state library used instead of Vuex.
 
-This example is focused on state-based-routing with Vue Router.
+This example is focused on state-first-routing with [Vue Router 4](https://next.router.vuejs.org/) as described in the [Overmind docs](https://overmindjs.org/guides-1/state-first-routing)
 
 
 ## Recommended IDE Setup
